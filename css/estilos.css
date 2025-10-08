@@ -59,6 +59,9 @@ header a:hover {
     color: #333;
 }
 
+.tarjeta a :hover{
+    background-color: cyan;
+}
 .tarjeta h3 {
     margin-bottom: 10px;
     font-size: 1.2em;

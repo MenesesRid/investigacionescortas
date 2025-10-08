@@ -1,0 +1,11 @@
+.conceptos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.concepto {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
