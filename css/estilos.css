@@ -43,7 +43,7 @@ header a:hover {
     width: 100%;
     height: auto;
     display: block;
-  object-fit: cover; /* Opcional si usas altura fija */
+    object-fit: cover; /* Opcional si usas altura fija */
 }
 
 .tarjeta {
@@ -51,6 +51,7 @@ header a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: 250px;
+    height: 270px;
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
