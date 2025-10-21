@@ -1,21 +1,11 @@
- *{
-    margin: 0;
-    background: lightgray;
+*{
+    background: lightgrey;
 }
-header *{
-    background-color: transparent;
-}
-footer *{
+header *, footer *{
     background-color: transparent;
 }
 
-h1{
-    text-align: center;
-    padding: 5px;
-    margin: 10px;
-}
-
-
+/*Estilos del main*/
 main{
     background-color: #ffffff; /* Fondo blanco para el cuadro */
     max-width: 800px;          /* Ancho máximo del cuadro */
@@ -67,38 +57,3 @@ summary {
 details[open] summary {
     color: blue;
 }
-
-/*Tarjetas*/
-.tarjeta-desplegable {
-    max-width: 400px;
-    margin: 30px auto;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
-
-.tarjeta-desplegable img {
-    width: 100%;
-    cursor: pointer;
-    display: block;
-    border-bottom: 1px solid #ddd;
-}
-
-.contenido {
-    padding: 20px;
-    display: none;
-    animation: fadeIn 0.3s ease-in-out;
-}
-
-.tarjeta-desplegable.activa .contenido {
-    display: block;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-

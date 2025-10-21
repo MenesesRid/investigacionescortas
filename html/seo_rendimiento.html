@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Investigación SEO Y Rendimiento</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/SEO.css">
 
-    <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="../css/SEO.css">
 </head>
 <body>
     <header>
@@ -16,11 +16,12 @@
         <article>
 
             <h1>SEO y Rendimiento</h1>
-
+            
             <p>
                 En este apartado encontrarás la definición y explicación de qué es el SEO, así como su utilidad para lograr un mejor posicionamiento en los motores de búsqueda.
                 <br>Además, se abordarán conceptos como <strong>SEO técnico, Twitter Cards y Open Graph (OG)</strong>, junto con un ejemplo práctico de su implementación en una página web.
             </p>
+            <img src="../img/seo_inicio.png" alt="SEO que es">
             <section id="definicon">
                 <h2>¿Que es SEO?</h2>
                 <p>
@@ -70,6 +71,7 @@
                 <p>
                     Como su nombre se refiera a la velociadad con la que una pagina web muestra su contenido, lo que puede afectar como lo ven los usuarios finales.
                 </p>
+                <img src="../img/velocidad.jpg" alt="Velocidad de carga">
                 <h3>¿Es importante?</h3>
                 <p>
                     Es de suma importancia ya que es una factor de posicionamiento que esta confimado tanto para ordenadores de escritorio como para moviles.
@@ -81,31 +83,123 @@
             <section id="Tecnico">
                 <h2>SEO Técnico</h2>
                 <p>Para profundizar mas sobre el SEO Tecnico, tenemos que tener claros 4 puntos importantes que nos ayudaran a entender la importancia de este.</p>
-                <div class="conceptos">
-                    <div class="concepto">
-                        <h3>Metaetiquetas Semánticas</h3>
+                <div class="acordeon">
+                    <details>
+                        <summary>Metaetiquetas Semánticas</summary>
                         <p>
                             Son componentes fundamentales, estas proporcionan a los motores de busqueda informacion clave sobre la pagina web.
-                            Estas no son visiblespara el usuario, pero tienen un impacto significativo en la manera de interpretacion de y 
-                            clasificacion de las paginas web.
+                            Estas no son visibles para el usuario, pero tienen un impacto significativo en la manera de interpretación de y 
+                            clasificación de las paginas web.
+                            Cuando usamos las metaetiquetas nos aseguramos que los navegadores y moteres de busqueda muestren nuestra pagina 
+                            en una pocición más arriba.
                         </p>
-                    </div>
-                    <div class="concepto">
-                        <h3>Datos Estructurados</h3>
+                    </details>
+                    <details>
+                        <summary>Datos Estructurados</summary>
                         <p>
+                            Son una serie de datos que estan organizados lo que permit que los moteres de búsqueda puedan comprender de una mejor 
+                            manera el contenido presente en la pagina.
+                            Esta basado en etiquetas que son especificas ayudando a categorizar la informacion que esta dentro de la pagina. Siguen 
+                            esquemas que estan estandarizados por ejemplo un vocabulario respaldado por Google, Bing como lo es <strong>Schema.org</strong>
                         </p>
-                    </div>
-                    <div class="concepto">
-                        <h3>Uso correcto de los encabezados</h3>
+                    </details>
+                    <details>
+                        <summary>Uso correcto de los encabezados</summary>
                         <p>
+                            Estos son elementos HTML que definen los titulos y subtitulos de la página. Por lo que son elementos textuales con los que indicamos 
+                            visual y semánticamente los encabezados, con ellos podemos fijar una organizadcion del texto de una página web, lo que influye en la 
+                            lectura y a su vez en como se comprende el contenido ya sea por los usaurios o por los motores de búsqueda.
                         </p>
-                    </div>
-                    <div class="concepto">
-                        <h3>Optimizadores de Imgenes</h3>
-                    </div>
+                    </details>
+                    <details>
+                        <summary>Optimizadores de Imágenes</summary>
+                        <p>
+                            También conocido como SEO de imágenes, nos permite mejorar la accesibilidad a nuestra pagina web mediante el uso de las imagenes, 
+                            ademas de que se esta convirtiendo en un requisito legal en varios paises.
+                            Se utiliza ya que las busquedas de imagenes representan un 22,6 porciento de todas las busquedas realizadas en Google, por lo que 
+                            es importante para no perder un gran porcentaje del tráfico en nuestras pagina.
+                        </p>
+                    </details>
                 </div>
             </section>
+
+            <section>
+                <h2>Open Graph y Twitter Cards</h2>
+                <div class="tarjeta-desplegable">
+                    <img src="ruta/imagen.jpg" alt="Imagen descriptiva" class="imagen-toggle">
+                    <h3>Open Graph</h3>
+                    <div class="contenido">
+                        <p>
+                            Es un protocolo desarrollado por Facebook esto para permitir que las paginas web integren su contenido dendro de las redes 
+                            sociles. Al usar este protocolo, cuando algun usuario comparte la URL en Facebook u otras plataformas compatibles, la página 
+                            que se esta compartiendo tenga un formato que permita una visualizacion previa de lo que trata la página.
+
+                            Esto se logra mediante una imagen aluciva a lo que se esta hablando en esta, un titulo, una descripcion breve para dar mas 
+                            contexto.
+                        </p>
+
+                        <p>
+                            Las etiquetas usadas controlan el como nuesta pagina se va a mostrar la página al compartirce.
+                            Las etiquetas indispensables para esto son <strong>og:title</strong> que muestra el titulo, <strong>og:description</strong> 
+                            la cual muestra la descripcion que desamos que se vea, y <strong>og:image</strong> nos da la url y la imagen que desamos 
+                            mostrar, y por ultimo <strong>org:url</strong> que se encarga de mostrar la url en si de nuestra página.
+
+                            La etiqueta <strong>org:type</strong> esta etiqueta tambien es impprtante ya que le dice a la red social como interacturar con el enlace 
+                            por ejemplo si es un sitio web o un video.
+                        </p>
+
+
+                    </div>
+                </div>
+
+                <div class="tarjeta-desplegable">
+                    <img src="ruta/imagen.jpg" alt="Imagen descriptiva" class="imagen-toggle">
+                    <h3>Twitter Cards</h3>
+                    <div class="contenido">
+                        <p>
+                            Este es un protocolo que es importante para una mejor representación del contenido de nuestra pagina pero para cuando se 
+                            en Twitter, al igual que el protocolo anterior este permite que los enlaces se muestren de una menera llamativa para las 
+                            los usuarios.
+                        </p>
+                    </div>
+                </div>
+
+                <!--JS para el desplegamiento de las tajetas-->
+                    <script>
+                        document.querySelectorAll('.imagen-toggle').forEach(img => {
+                        img.addEventListener('click', () => {
+                            img.parentElement.classList.toggle('activa');
+                        });
+                        });
+                    </script>
+            </section>
         </article>
+
+        <div class="acordeon">
+            <details>
+                <summary>Referencias</summary>
+                    <ul>
+                            <li>
+                                Luque, M. (2024, septiembre 10). Implementación y uso de Open Graph y Twitter Cards. Mauricio Luque. https://www.mauricioluque.com/negocios/20240910-implementacion-y-uso-de-open-graph-y-twitter-cards/
+                            </li>
+                            <li>
+                                Navas, A. (2025, marzo 2). Datos estructurados: qué son y cómo mejorar tu SEO con ellos. SEOCOM - Agencia SEO y Marketing Digital; Seocom. https://seocom.agency/blog/datos-estructurados-que-son/
+                            </li>
+                            <li>
+                            ¿Qué es SEO marketing? + Cómo mejorar tu SEO. (2024, julio 30). Coursera. https://www.coursera.org/mx/articles/seo-marketing?utm_medium=sem&utm_source=gg&utm_campaign=b2c_latam_x_multi_ftcof_career-academy_cx_dr_bau_gg_pmax_gc_s1_es_m_hyb_25-09_x&campaignid=23013457628&adgroupid=&device=c&keyword=&matchtype=&network=x&devicemodel=&creativeid=&assetgroupid=6609642748&targetid=&extensionid=&placement=&gad_source=1&gad_campaignid=23039506486&gbraid=0AAAAADdKX6ZyZ05UJHthxI9xIsQ-15URK&gclid=Cj0KCQjw3OjGBhDYARIsADd-uX5_AxCr0kazyyrGJRsGzMabN-VnFLESCp9Caar2lH2O_YpAbIDeSEgaAh86EALw_wcB
+                            </li>
+                            <li>
+                                Rodríguez, M. (2023, marzo 16). SEO Técnico. Agencia SEO en México; Agencia SEO. https://www.seoenmexico.com/blog/seo-tecnico/
+                            </li>
+                            <li>
+                            SEO - Search Engine Optimization guides and useful informations. (s/f). SEOZoom. Recuperado el 21 de octubre de 2025, de https://www.seozoom.com/seo/
+                            </li>
+                            <li>
+                            van Vessum, S. (2021, noviembre 21). Meta tags in SEO: The ultimate guide. Conductor. https://www.conductor.com/academy/what-are-meta-tags/
+                            </li>                   
+                        </ul>
+            </details>
+        </div>
     </main>
     <footer>
         <p>&copy; 2025 Ridley. Todos los derechos reservados.</p>
